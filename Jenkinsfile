@@ -7,11 +7,11 @@ pipeline {
     stage('PULL') {
      steps {
         echo "Getting Project from Git"; 
-				git(url: 'https://github.com/samar-b/LivraisonContinue.git', branch: 'main')
+				git(url: 'https://github.com/samar-b/CD.git', branch: 'main')
 			}
 }
     
-    
+    /*
    
     stage ('Build')
     {
@@ -31,7 +31,7 @@ pipeline {
         }
       }
     }
-
+*/
 
 
 

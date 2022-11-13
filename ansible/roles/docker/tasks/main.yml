@@ -1,5 +1,4 @@
 # tasks file for docker
-tasks:
 - name: create image docker
   vars:
    ansible_python_interpreter: /usr/bin/python3

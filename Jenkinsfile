@@ -22,7 +22,7 @@ pipeline {
         }
       }
     }
-    /*
+    
      stage ('docker')
     {
       steps {
@@ -31,7 +31,6 @@ pipeline {
         }
       }
     }
-*/
 
 
 
